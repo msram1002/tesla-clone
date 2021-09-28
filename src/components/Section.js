@@ -43,6 +43,9 @@ const ItemText = styled.div`
 const ButtonGrp = styled.div`
   display: flex;
   margin-bottom: 2.5rem;
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
 `;
 
 const LeftBtn = styled.div`
