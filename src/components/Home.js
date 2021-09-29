@@ -40,6 +40,11 @@ function Home() {
         backgroundImg="solar-roof.jpg"
         leftBtnText="Order Now"
         rightBtnText="Learn More" />
+      <Section 
+        title="Accessories" 
+        desc=""
+        backgroundImg="accessories.jpg"
+        leftBtnText="Shop Now" />
     </Container>
   )
 }

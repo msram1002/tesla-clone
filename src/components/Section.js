@@ -11,7 +11,9 @@ function Section({ title, desc, leftBtnText, rightBtnText, backgroundImg }) {
       <Buttons>
         <ButtonGrp>
           <LeftBtn>{ leftBtnText }</LeftBtn>
-          <RightBtn>{ rightBtnText }</RightBtn>
+          {/* Show only if right btn text exists */}
+          { rightBtnText &&
+          <RightBtn>{ rightBtnText }</RightBtn> }
         </ButtonGrp>
         <DownArrow src="/images/down-arrow.svg">
         </DownArrow>
